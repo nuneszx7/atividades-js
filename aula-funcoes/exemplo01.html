@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01 - Função</title>
+</head>
+<body>
+    
+    <script>
+        //Criando um exemplo de procedimento
+
+        function exibirMensagem(){
+            alert('Vai Corinthians!')
+        }
+
+        function calcularSubtracao(){
+
+            let num1 = parseInt(prompt('Digite um valor: '))
+            let num2 = parseInt(prompt('Digite outro valor: '))
+
+            let total = num1 - num2
+
+            alert(`A subtração é igual a ${total}`)
+
+        }
+
+        //Criando uma função
+        function calcularSoma(pikachu, bulbassauro){
+
+            let v1 = pikachu
+            let v2 = bulbassauro
+
+            return v1 + v2
+        }
+
+
+        //Utilizando o procedimento
+        //exibirMensagem()
+
+        // calcularSubtracao()
+
+        //Chamando uma função com o parametro
+        alert(`A soma é: ${calcularSoma(10,5)}`)
+
+
+
+    </script>
+
+</body>
+</html>
