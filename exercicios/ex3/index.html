@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar número</title>
+</head>
+<body>
+
+    <h1>Exercicio 3</h1>
+    <h2>Objetivo: </h2>
+
+    <p>Crie uma página HTML com um script JavaScript que solicite dois valores para o usuário, 
+       verifique qual deles é o menor e exiba a sequência do menor para o maior no console do navegador</p>
+
+       <script>
+
+        let valor1 = prompt('Insira o valor 1: ')
+        console.log(`O valor inserido foi: ${valor1}`)
+
+        let valor2 = prompt('Insira o valor 2: ')
+        console.log(`O valor inserido foi: ${valor2}`)
+
+        let menor
+        let maior
+
+        if (valor1 < valor2){
+
+            valor1 = menor
+            valor2 = maior
+
+        }else {
+            valor1 = maior
+            valor2 = menor
+        }
+
+        console.log(`Exibindo a sequência de ${menor} até ${maior}: `)
+
+        // for (let i = menor; i <= maior; i++) {
+        //         console.log(i)
+        // }
+
+
+       </script>
+    
+</body>
+</html>
